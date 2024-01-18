@@ -1,0 +1,552 @@
+.freeMaterials {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  width: 344px;
+  height: 51px;
+  flex-shrink: 0;
+  max-width: 121%;
+}
+.allSamplePapersText {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  min-width: 185px;
+}
+.pinPngImage1Icon {
+  position: relative;
+  border-radius: var(--br-148xl);
+  width: 59px;
+  height: 55px;
+  object-fit: cover;
+}
+.oneText,
+.oswaalSamplePaperText {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.oswaalSamplePaperText {
+  flex: 1;
+  align-items: flex-end;
+  row-gap: 20px;
+}
+.oneText {
+  width: 362px;
+  align-items: flex-start;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+}
+.frameWithSingleTextChild {
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-mediumslateblue);
+  width: 89px;
+  height: 40px;
+  display: none;
+}
+.one {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 800;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  z-index: 1;
+}
+.frameWithSingleText {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) var(--padding-4xs) var(--padding-xl);
+  background-color: var(--color-mediumslateblue);
+  border-radius: var(--br-xl);
+  width: 89px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.frameWithSingleText:hover,
+.twoFrame:hover {
+  background-color: var(--color-darkorchid);
+}
+.blankLine,
+.oswaalSamplePaper {
+  margin: 0;
+}
+.oswaalSamplePaperContainer {
+  flex: 1;
+  position: relative;
+  font-weight: 800;
+}
+.frameWithQuestion,
+.oSWALSSamplePaper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.oSWALSSamplePaper {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-4xs);
+}
+.frameWithQuestion {
+  flex-direction: column;
+  gap: var(--gap-2xs);
+}
+.allTheSample,
+.forFree,
+.ofOswaalWith {
+  margin: 0;
+}
+.allTheSampleContainer {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.doubtSolvingTextChild {
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  width: 114px;
+  height: 46px;
+  display: none;
+}
+.clickHere {
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+  height: 30px;
+  z-index: 3;
+}
+.doubtSolvingText {
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-6xs) 0 var(--padding-4xs);
+  white-space: nowrap;
+  z-index: 2;
+}
+.clickHereLink,
+.threeText,
+.twoText {
+  display: flex;
+  justify-content: flex-start;
+}
+.threeText {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-smi) 0 0;
+  color: var(--color-black);
+}
+.clickHereLink,
+.twoText {
+  flex-direction: column;
+}
+.clickHereLink {
+  align-self: stretch;
+  align-items: center;
+  padding: 0 0 0 var(--padding-5xs);
+  gap: var(--gap-5xs);
+  font-size: var(--font-size-base);
+}
+.twoText {
+  flex: 1;
+  align-items: flex-end;
+  gap: var(--gap-13xl);
+  min-width: 181px;
+}
+.twoFrameChild {
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-mediumslateblue);
+  width: 89px;
+  height: 40px;
+  display: none;
+}
+.two {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 800;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  z-index: 1;
+}
+.twoFrame {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-8xs) var(--padding-8xl) var(--padding-mini)
+    var(--padding-smi);
+  background-color: var(--color-mediumslateblue);
+  border-radius: var(--br-xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.questionBank {
+  position: relative;
+  font-weight: 800;
+}
+.clickHereFrame,
+.questionBankFrame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.clickHereFrame {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-3xl);
+}
+.questionBankFrame {
+  flex-direction: column;
+  gap: var(--gap-8xs);
+}
+.everyOneSays,
+.practiceSheet {
+  margin: 0;
+}
+.everyOneSaysContainer {
+  align-self: stretch;
+  position: relative;
+}
+.rectangleShapeChild {
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  width: 114px;
+  height: 46px;
+  display: none;
+}
+.clickHere1 {
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+  height: 30px;
+  z-index: 2;
+}
+.rectangleShape {
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: var(--padding-base) var(--padding-8xs) 0 var(--padding-2xs);
+  white-space: nowrap;
+  z-index: 1;
+}
+.clickHereToAccessQB {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs) 0 0;
+  color: var(--color-black);
+}
+.textFrameWithLink {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.frameWithOSWALLogo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-6xs);
+  font-size: var(--font-size-base);
+}
+.samplePapersFrame {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-13xl);
+  min-width: 181px;
+  font-size: var(--font-size-5xl);
+}
+.freeMaterialsText,
+.questionBankText,
+.samplePapersFrame {
+  display: flex;
+  justify-content: flex-start;
+}
+.questionBankText {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-49xl);
+  font-size: var(--font-size-xl);
+}
+.freeMaterialsText {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-10xl);
+  min-width: 406px;
+  max-width: 100%;
+}
+.youTubeLogoFrameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-mediumslateblue);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.three {
+  position: absolute;
+  top: 4px;
+  right: -13px;
+  font-weight: 800;
+  display: inline-block;
+  width: 88px;
+  height: 16px;
+  z-index: 1;
+}
+.youTubeLogoFrame {
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-mediumslateblue);
+  width: 89px;
+  height: 40px;
+}
+.doubtSolving {
+  flex: 1;
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+  height: 44px;
+}
+.helpYouIncredibly,
+.weDontHave {
+  margin: 0;
+}
+.weDontHaveContainer {
+  position: absolute;
+  margin: 0 !important;
+  right: -40px;
+  bottom: -72px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  width: 271px;
+  height: 83px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.doubtSolvingFrames,
+.rectangleShapeForEllipse {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleShapeForEllipse {
+  flex: 1;
+  position: relative;
+}
+.doubtSolvingFrames {
+  align-self: stretch;
+  padding: 0 0 0 var(--padding-3xs);
+  font-size: var(--font-size-5xl);
+}
+.frameForYouTubeLogo,
+.textFrameWithEllipse {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.textFrameWithEllipse {
+  align-self: stretch;
+  gap: var(--gap-6xs);
+}
+.frameForYouTubeLogo {
+  width: 241px;
+  padding: 0 0 var(--padding-smi);
+  box-sizing: border-box;
+  min-width: 241px;
+  font-size: var(--font-size-xl);
+}
+.rectangleBoundingBox {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-white);
+  position: absolute;
+  margin: 0 !important;
+  right: 38px;
+  bottom: -8px;
+  border-radius: var(--br-xl);
+  width: 114px;
+  height: 46px;
+  z-index: 2;
+}
+.freeMaterialsTextParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-42xl);
+  max-width: 100%;
+}
+.frameWithEllipseAndArrowChild {
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  width: 189px;
+  height: 49px;
+  display: none;
+}
+.youtube {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 900;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  z-index: 1;
+}
+.roundedEllipseShape {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.vectorArrowForNavigationChild {
+  position: absolute;
+  top: 16px;
+  left: 6px;
+  width: 24px;
+  height: 14.7px;
+  z-index: 2;
+}
+.vectorArrowForNavigation {
+  position: relative;
+  width: 36px;
+  height: 32px;
+}
+.emptyFrame,
+.frameWithEllipseAndArrow,
+.pinImage {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWithEllipseAndArrow {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-lgi) var(--padding-8xs)
+    var(--padding-2xs);
+  background-color: var(--color-white);
+  border-radius: var(--br-xl);
+  gap: var(--gap-xl);
+}
+.emptyFrame,
+.pinImage {
+  padding: 0 var(--padding-smi);
+}
+.pinImage {
+  width: 947px;
+  flex-direction: column;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-46xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 975px) {
+  .freeMaterials {
+    font-size: var(--font-size-13xl);
+  }
+  .frameForYouTubeLogo,
+  .oswaalSamplePaperText {
+    flex: 1;
+  }
+  .freeMaterialsTextParent {
+    flex-wrap: wrap;
+    gap: var(--gap-11xl);
+  }
+  .pinImage {
+    gap: var(--gap-13xl);
+  }
+}
+@media screen and (max-width: 725px) {
+  .questionBankText {
+    flex-wrap: wrap;
+    gap: var(--gap-15xl);
+  }
+  .freeMaterialsText {
+    min-width: 100%;
+  }
+  .pinImage {
+    gap: var(--gap-base);
+  }
+}
+@media screen and (max-width: 450px) {
+  .freeMaterials {
+    font-size: var(--font-size-5xl);
+  }
+  .oswaalSamplePaperText {
+    flex-wrap: wrap;
+  }
+  .one,
+  .oswaalSamplePaperContainer {
+    font-size: var(--font-size-base);
+  }
+  .twoText {
+    gap: var(--gap-base);
+  }
+  .two {
+    font-size: var(--font-size-base);
+  }
+  .questionBank {
+    font-size: var(--font-size-lgi);
+  }
+  .samplePapersFrame {
+    gap: var(--gap-base);
+  }
+  .questionBankText {
+    gap: var(--gap-mid);
+  }
+  .three {
+    font-size: var(--font-size-base);
+  }
+  .doubtSolving {
+    font-size: var(--font-size-lgi);
+  }
+  .freeMaterialsTextParent {
+    gap: var(--gap-mini);
+  }
+  .youtube {
+    font-size: var(--font-size-lgi);
+  }
+}
