@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/westudymaterial.github.io/static/css/main.cc2f0027.css",
+    "main.js": "/westudymaterial.github.io/static/js/main.59382956.js",
+    "static/js/787.aadca95f.chunk.js": "/westudymaterial.github.io/static/js/787.aadca95f.chunk.js",
+    "index.html": "/westudymaterial.github.io/index.html",
+    "main.cc2f0027.css.map": "/westudymaterial.github.io/static/css/main.cc2f0027.css.map",
+    "main.59382956.js.map": "/westudymaterial.github.io/static/js/main.59382956.js.map",
+    "787.aadca95f.chunk.js.map": "/westudymaterial.github.io/static/js/787.aadca95f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc2f0027.css",
+    "static/js/main.59382956.js"
+  ]
+}
